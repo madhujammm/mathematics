@@ -7,3 +7,6 @@ def palin(n):
         n //= 10  # Remove the last digit from n
     return original == rev  
 print(palin(1221))
+
+
+
