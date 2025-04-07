@@ -6,7 +6,7 @@ def power1(x, y):
         return half * half
     return half * half * x
 
-#non recursive
+#   yes :non recursive
 def power2(x, y):
     result = 1
     while y > 0:
