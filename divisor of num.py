@@ -7,7 +7,7 @@ def divisors1(n, i=1, divs=None):
         divs.append(i)
     return divisors1(n, i + 1, divs)
 
-#non recursive
+#non recursive 
 def divisors2(n):
     divs = []
     for i in range(1, int(n**0.5) + 1):
